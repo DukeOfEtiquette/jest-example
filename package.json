@@ -1,0 +1,26 @@
+{
+  "name": "jest-testing",
+  "version": "1.0.0",
+  "description": "This is a basic example of how to use Jest testing framework with Travis-ci.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DukeOfEtiquette/jest-example.git"
+  },
+  "author": "Adam DuQuette <duquetteadam@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DukeOfEtiquette/jest-example/issues"
+  },
+  "homepage": "https://github.com/DukeOfEtiquette/jest-example#readme",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
